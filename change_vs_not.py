@@ -41,4 +41,12 @@ foo(a)
 print(f'a is now: {a} and b is now {b}')
 # a changes but b does not
 
+# # # more notes - DevOps cisco stuffs# # #
+print('\nstяings doing wierd things:')
+this_string = 'pasta '
+print(this_string*3)
+# you can multipy strings
+this_string += 'and snail repellent'
+# you can also concatenate them with + in some odd ways
+print(this_string)
 
