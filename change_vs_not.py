@@ -50,3 +50,7 @@ this_string += 'and snail repellent'
 # you can also concatenate them with + in some odd ways
 print(this_string)
 
+with open ('devices.txt', 'r') as f:
+    for line in f:
+        print(line)
+
